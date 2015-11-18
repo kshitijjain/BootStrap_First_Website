@@ -1,0 +1,147 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0;
+}
+
+#search-input {
+  width: 151px;
+}
+
+.navbar-brand{
+  font-size: 22px;
+}
+
+.navbar{
+  background: #2b2a28;
+}
+
+.navbar .pull-right .dropdown-menu{
+  background: #2a2b28;
+}
+
+.navbar a{
+  color: #fff;
+}
+.navbar a:hover{
+  color: grey;
+}
+
+.navbar ul a{
+  color: #fff;
+}
+
+.navbar ul a:hover{
+  background: none;
+  color: grey;
+}
+
+#my-carousel {
+  margin-top: 75px;
+}
+
+
+#my-carousel .item {
+  height: 400px;
+}
+
+.item .btn{
+  margin-bottom: 10px;
+}
+
+.item h4{
+  font-size: 45px;
+  font-weight: 100;
+}
+
+.item img{
+  height: 100px;
+}
+
+.item p{
+  font-size: 22px;
+}
+
+#slide1
+{
+  background: url("../images/1.jpg") top center no-repeat;
+  background-size: cover;
+}
+
+#slide2 {
+  background: url(../images/2.jpg) top center no-repeat;
+  background-size: cover;
+}
+
+#slide3 {
+  background: url(../images/seeAnywhere.jpg) top center no-repeat;
+  background-size: cover;
+}
+
+.modal1{
+  margin-top: 35px;
+}
+
+#moreInfo1{
+  margin-top: 40px;
+}
+
+#moreInfo2{
+  margin-bottom: 45px;
+}
+
+.row .col-sm-6 h3{
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.row .content{
+  padding-left: 45px;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+
+  #my-carousel .item { height: 310px; }
+
+  .carousel-caption p{
+    font-size: 14px;
+  }
+
+  .carousel-caption h4 {
+    font-size: 22px;
+  }
+
+  #moreInfo1 img{
+    width: 310px;
+  }
+
+  #moreInfo2 img{
+    width: 310px;
+  }
+
+  .row .content{
+    padding-left: 45px;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  #my-carousel .item { height: 500px; }
+}
+
+footer {
+  background: black;
+  color: #eee;
+  font-size: 11px;
+  padding: 20px;
+}
+
+ul.unstyled {
+  font-size: 14px;
+  list-style: none;
+  padding: 0;
+}
